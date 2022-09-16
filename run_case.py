@@ -28,7 +28,7 @@ runner = HTMLTestRunnerPlugins.HTMLTestRunner(
     verbosity=2,#执行结果概述
     retry=0#设置重复执行次数
 )
-# 执行测试用例
+# 执行测试用例的
 runner.run(discover)
 stream.close()
 
